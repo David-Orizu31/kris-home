@@ -80,21 +80,21 @@ body p {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner.jpg) no-repeat center;
     background-size: cover;
     min-height: 600px;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .banner-two {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner-2.jpg) no-repeat center;
     background-size: cover;
     min-height: 600px;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .banner-three {
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner-3.jpg) no-repeat center;
     background-size: cover;
     min-height: 600px;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .banner-text h1 {
