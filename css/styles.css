@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Manrope:wght@600&family=Raleway:wght@500&display=swap');
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+body p {
+    font-size: 18px;
+    line-height: 1.9em;
+}
+
+.site-header {
+    background: rgb(2, 41, 95);
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.social-links a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}
+
+.head-info a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.navbar {
+    background: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* box-shadow: 0 8px 8px -4px rgb(208, 221, 245); */
+}
+
+.add-shadow {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item .nav-link {
+    font-size: 17px;  
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item.active .nav-link {
+    color: rgb(2, 41, 95);
+    border-bottom: 2px solid rgb(2, 41, 95);
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(2, 41, 95);
+    border-bottom: 2px solid rgb(2, 41, 95);
+}
+
+.navbar #collapsibleNavId .navbar-nav .nav-item {
+    margin-right: 13px;
+}
+
+.navbar-toggler {
+    border: 1px solid transparent !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.img-logo {
+    width: 90px; 
+    height: 70px; 
+}
+
+.banner-area {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 150px;
+}
+
+.banner-two {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner-2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 150px;
+}
+
+.banner-three {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/estate-banner-3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+    padding-top: 150px;
+}
+
+.banner-text h1 {
+    font-size: 65px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.banner-text h4 {
+    line-height: 1.5em;
+}
+
+.btn-contact {
+    color: white;
+    background: rgb(2, 41, 95);
+    border: 2px solid rgb(2, 41, 95);
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+.btn-contact:hover {
+    color: rgb(2, 41, 95);
+    background: white;
+}
+
+section {
+    padding-top: 70px;
+}
+
+.welcome-area h1 {
+    font-family: 'Manrope', sans-serif;
+    color: rgb(2, 41, 95);
+}
+
+.welcome-area h3 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.text-grey {
+    color: rgb(77, 77, 77);
+}
+
+.text-blue {
+    color: rgb(2, 41, 95);
+}
+
+.text-manrope {
+    font-family: 'Manrope', sans-serif; 
+}
+
+.text-kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.kris-card-text {
+    font-size: 16px;
+}
+
+.img-card {
+    min-height: 250px;
+}
+
+.btn-enquire {
+    color: white;
+    background: rgb(2, 41, 95);
+    border: 1px solid rgb(2, 41, 95);
+    border-radius: 0px;
+}
+
+.btn-enquire:hover {
+    color: rgb(2, 41, 95);
+    background: transparent;
+}
+
+.testimonial-area {
+    background: linear-gradient(rgba(2, 42, 87, 0.74), rgba(2, 42, 87, 0.74)), url(../img/kris-estate-3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+}
+
+.testi-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.panel-label {
+    font-weight: bold;
+    /* color: rgb(2, 41, 95); */
+}
+
+.panel-control {
+    border-radius: 0px;
+}
+
+.panel-control:focus {
+    color: rgb(2, 41, 95);
+    box-shadow: none;
+}
+
+.contact-details h5 {
+   color: rgba(2, 42, 87, 0.74);
+   font-weight: bold;
+}
+
+.footer-area {
+    background: rgb(35, 35, 36);
+}
+
+.footer-text {
+    color: grey;
+    font-size: 16px;
+}
+
+.foot-list {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.foot-list li {
+    line-height: 2.2em;
+}
+
+.foot-list li a {
+    color: grey;
+    text-decoration: none;
+}
+
+.foot-list li a:hover {
+    color: white;
+}
+
+.copyright-text {
+    font-size: 15px;
+}
+
+.foot-social-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.foot-social-links a .fab:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+}

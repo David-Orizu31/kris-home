@@ -1,0 +1,51 @@
+@media (max-width:800px) {
+    .navbar #collapsibleNavId .navbar-nav .nav-item.active .nav-link {
+        border-bottom: none;
+    }
+    
+    .navbar #collapsibleNavId .navbar-nav .nav-item .nav-link:hover {
+        border-bottom: none;
+    }
+
+    .banner-area {
+        padding-top: 120px;
+    }
+
+    .banner-two {
+        padding-top: 120px;
+    }
+
+    .banner-three {
+        padding-top: 120px;
+    }
+
+    .banner-text h1 {
+      font-size: 60px;
+    }
+
+    .banner-text h4 {
+        font-size: 20px;
+      }
+}
+
+@media (max-width:480px) {
+    .banner-area {
+        padding-top: 100px;
+    }
+
+    .banner-two {
+        padding-top: 100px;
+    }
+
+    .banner-three {
+        padding-top: 100px;
+    }
+
+    .banner-text h1 {
+        font-size: 50px;
+      }
+
+      .banner-text h4 {
+        font-size: 18px;
+      }
+}
