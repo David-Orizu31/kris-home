@@ -243,3 +243,19 @@ section {
     -webkit-transition: all .5s linear;
     transition: all .5s linear;
 }
+
+.other-banners {
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../img/other-banners.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 300px;
+    padding-top: 100px;
+}
+
+.other-banners h1 {
+    font-size: 45px;
+}
+
+.values-area .values-list li{
+   line-height: 2em;
+   font-size: 20px;
+}
